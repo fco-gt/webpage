@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        <%= title %>
+    </title>
+    <%- include ('partials/head.html')%>
+
+</head>
+
+<body>
+
+    <%- include ('partials/navigation.html')%>
+
+    <div class="container">
+        <header class="row">
+            <div class="col-lg-12 text-center">
+                <img src="/img/img1.png" class="animate__animated animate__bounce" alt="discord-js" width="350"
+                    height="350">
+                <div class="container-fluid row p-5 text-center" id="blurredbackground">
+                    <h1>Desarrolador de Bots de Discord Y Jr Web developer</h1>
+                </div>
+            </div>
+        </header>
+
+    </div>
+
+    <!-- INICIO -->
+    <div class="container-fluid">
+        <div class="row bg-dark text-white p-5 text-center">
+            <div class="col-sm-6">
+                <h3>Bots de discord</h3>
+                <p>Desarrollo bots para comunidades(servidores) de discord, al igual que cuento con mi propio bot <a
+                        href="https://top.gg/bot/758059320238931978" target="_blank">"Mankekito"</a> el cual actualmente
+                    se encuentra verificado, los bots cumplen tanto como funciones basicas como funciones avanzadas e
+                    inclusive el uso de una base de datos para almacenar informacion de los usuario de cada servidor.
+                </p>
+            </div>
+            <div class="col-sm-6">
+                <h3>Desarrollo Web</h3>
+                <p>Estudiante de Desarrollo web Front End y NodeJs.<br>
+                    Esta pagina esta creada con NodeJs | HTML5 | CSS3 | JS</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- SKILLS -->
+
+    <p><img align="center"
+            src="https://github-readme-stats.vercel.app/api/top-langs?username=mankewhe&show_icons=true&locale=en&layout=compact"
+            alt="mankewhe" /></p>
+
+
+    <!-- REDES -->
+
+    <%- include ('partials/redes.html') %>
+
+    <!-- FOOTER -->
+
+    <%- include ('partials/footer.html')%>
+
+</body>
+
+</html>
